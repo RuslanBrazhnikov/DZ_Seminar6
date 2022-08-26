@@ -8,8 +8,8 @@ Console.Write("Введите элементы(через пробел): ");
 
 int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-//Array.ConvertAll - преобразует один тип массива в другой.
-//.Split() - используется для разбиения на подстроки.
+// Array.ConvertAll - Преобразует массив одного типа в массив другого типа.
+// .Split() - используется для разбиения на подстроки.
 
 int n = 0;
 
@@ -26,4 +26,5 @@ int CountGreaterThanZero(int n)
 }
 
 int res = CountGreaterThanZero(n);
-Console.WriteLine($"Кол-во элементов > 0 = {res}!");
+Console.WriteLine($"Кол-во элементов > 0 = {res}");
+
